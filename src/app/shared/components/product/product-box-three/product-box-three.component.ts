@@ -11,14 +11,44 @@ import { ProductService } from "../../../services/product.service";
 })
 export class ProductBoxThreeComponent implements OnInit {
 
-  @Input() product: Product;
+   products: any = [];
   @Input() currency: any = this.productService.Currency; // Default Currency
   @Input() cartModal: boolean = false; // Default False
   
   @ViewChild("quickView") QuickView: QuickViewComponent;
   @ViewChild("cartModal") CartModal: CartModalComponent;
 
-  constructor(private productService: ProductService) { }
+  ProductSliderConfig: any = {
+    loop: false,
+    dots: false,
+    navSpeed: 300,
+    autoHeight: true,
+    responsive: {
+      991: {
+        items: 4
+      },
+      767: {
+        items: 3
+      },
+      420: {
+        items: 2
+      },
+      0: {
+        items: 1
+      }
+    }
+  }
+
+  constructor(private productService: ProductService) { 
+    this.products = [
+      {
+        title: 'Clasic',
+        images: [
+          {src: 'assets/images/bike/classic350filter/1.png'}
+        ]
+      }
+    ];
+  }
 
   ngOnInit(): void {
   }

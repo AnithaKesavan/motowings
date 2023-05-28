@@ -1,47 +1,120 @@
-<div class="m-4">
-    <div class="row">
-        <div class="col-3">
-            <div class="card" (click)="move('filter')">
-                <div class="img-wrapper"> 
-                    <div class="front">
-                        <!-- <a [routerLink]="['/shop/product/left/sidebar/', product.title.replace(' ', '-')]"> -->
-                            <img  src="assets/images/bike/classic350filter/1.jpg"
-                                class="img-fluid" >
-                        <!-- </a> -->
-                    </div>
-                    <a>
-                        <h6>Filter</h6>
-                    </a>
+<div class="breadcrumb-section" *ngIf="hide">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="page-title">
+                    <h2>Products Category</h2>
                 </div>
             </div>
-        </div>
-        <div class="col-3">
-            <div class="card"  (click)="move('refillter')">
-                <div class="img-wrapper"> 
-                    <div class="front">
-                        <!-- <a [routerLink]="['/shop/product/left/sidebar/', product.title.replace(' ', '-')]"> -->
-                            <img  src="assets/images/bike/filterrefillerwasher/1.jpg"
-                                class="img-fluid" >
-                        <!-- </a> -->
-                    </div>
-                    <a>
-                        <h6>Refiller Washer</h6>
-                    </a>
-                </div>
+            <div class="col-sm-6">
+                <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a [routerLink]="'/home'">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Products </li>
+                    </ol>
+                </nav>
             </div>
         </div>
-        <div class="col-3">
-            <div class="card"  (click)="move('exhaust')" >
-                <div class="img-wrapper"> 
-                    <div class="front">
-                        <!-- <a [routerLink]="['/shop/product/left/sidebar/', product.title.replace(' ', '-')]"> -->
-                            <img  src="assets/images/bike/himalayan/exhaust.jpg"
-                                class="img-fluid" >
-                        <!-- </a> -->
+    </div>
+</div>
+
+<div class="container">
+    <div class="m-4">
+        <div class="row">
+            <div class="col-3">
+                <div class="card" (click)="move('filter')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/classic350filter/1.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Filter</h6>
+                        </a>
                     </div>
-                    <a>
-                        <h6>Exhauster</h6>
-                    </a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" (click)="move('refillter')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/filterrefillerwasher/1.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Refiller Washer</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" (click)="move('exhaust')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/himalayan/exhaust.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Exhauster</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" (click)="move('meteor')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/Meteor/mattblack/4.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Meteor</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" (click)="move('type1classic')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/Type 1/type 1 classic/Chromematte/2.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Type 1 Classic</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" (click)="move('type1thunder')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/Type 1/type 1 thunder/Chrome matte/2.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Type 1 Thunder</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" (click)="move('type2classic')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/Type 2/type 2 classic/Chrome/3.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Type 2 Classic</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" (click)="move('type2thunder')">
+                    <div class="img-wrapper">
+                        <div class="front">
+                            <img src="assets/images/bike/Type 2/type 2 thunder/Chrome/1.jpg" class="img-fluid">
+                        </div>
+                        <a>
+                            <h6>Type 2 Thunder</h6>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -40,10 +40,10 @@ export class NavService {
 			title: 'about', type: 'link', active: false, path: '/pages/aboutus'
 		},
 		{
-			title: 'products', type: 'link', path: '/shop/collection/left/sidebar', active: true
+			title: 'products', type: 'link', path: '/pages/product', active: true
 		},
 		{
-			title: 'gallery', type: 'link', active: true, path: '/pages/aboutus'
+			title: 'gallery', type: 'link', active: true, path: '/pages/gallery'
 		},
 		{
 			title: 'contact us', type: 'link', active: true, path: '/pages/contact'

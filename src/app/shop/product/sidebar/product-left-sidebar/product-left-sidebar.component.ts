@@ -1,18 +1,19 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProductDetailsMainSlider, ProductDetailsThumbSlider } from '../../../../shared/data/slider';
 import { Product } from '../../../../shared/classes/product';
 import { ProductService } from '../../../../shared/services/product.service';
 import { SizeModalComponent } from "../../../../shared/components/modal/size-modal/size-modal.component";
+import { settings } from 'src/app/settings';
 
 @Component({
   selector: 'app-product-left-sidebar',
   templateUrl: './product-left-sidebar.component.html',
   styleUrls: ['./product-left-sidebar.component.scss']
 })
-export class ProductLeftSidebarComponent implements OnInit {
+export class ProductLeftSidebarComponent implements OnInit, OnDestroy {
 
-  public product: Product = {};
+  public product: any = {};
   public counter: number = 1;
   public activeSlide: any = 0;
   public selectedSize: any;
@@ -26,10 +27,17 @@ export class ProductLeftSidebarComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private router: Router,
     public productService: ProductService) {
-    this.route.data.subscribe(response => this.product = response['data'] );
+
   }
 
   ngOnInit(): void {
+    let val = sessionStorage.getItem('product');
+    if (val != null) {
+      this.product = JSON.parse(val);
+    } else {
+      this.product = settings.product;
+      sessionStorage.setItem("product", JSON.stringify(this.product));
+    }
     console.log("dddd", this.product)
   }
 
@@ -93,6 +101,10 @@ export class ProductLeftSidebarComponent implements OnInit {
   // Toggle Mobile Sidebar
   toggleMobileSidebar() {
     this.mobileSidebar = !this.mobileSidebar;
+  }
+
+  ngOnDestroy(): void {
+      sessionStorage.removeItem("product");
   }
 
 }

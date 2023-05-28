@@ -1,3 +1,21 @@
 h6 {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-3 {
+    margin-bottom: 20px;
+}
+
+
+.card {
+    border: 1px solid #fdc716;
+    cursor: pointer;
+    border-radius: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card:hover {
+    box-shadow: none;
+    border: 3px solid #fdc716 !important;
 }

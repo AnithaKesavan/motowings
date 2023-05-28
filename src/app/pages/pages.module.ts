@@ -38,6 +38,9 @@ import { BlogDetailsComponent } from './blog/blog-details/blog-details.component
 import { GridTwoComponent } from './portfolio/grid-two/grid-two.component';
 import { GridThreeComponent } from './portfolio/grid-three/grid-three.component';
 import { GridFourComponent } from './portfolio/grid-four/grid-four.component'; 
+import { ProductsComponent } from '../home/products/products.component';
+import { GalleryComponent } from '../home/gallery/gallery.component';
+
 @NgModule({
   declarations: [
     WishlistComponent,
@@ -67,7 +70,9 @@ import { GridFourComponent } from './portfolio/grid-four/grid-four.component';
     BlogDetailsComponent,
     GridTwoComponent,
     GridThreeComponent,
-    GridFourComponent
+    GridFourComponent, 
+    ProductsComponent,
+    GalleryComponent
   ],
   imports: [
     CommonModule,

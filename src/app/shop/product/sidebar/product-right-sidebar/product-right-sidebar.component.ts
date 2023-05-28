@@ -26,7 +26,7 @@ export class ProductRightSidebarComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private router: Router,
     public productService: ProductService) {
-    this.route.data.subscribe(response => this.product = response['data'] );
+    this.route.data.subscribe(response => this.product = response.data);
   }
 
   ngOnInit(): void {

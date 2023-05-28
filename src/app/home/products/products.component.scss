@@ -1,0 +1,16 @@
+.card {
+    border: 2px solid #fdc716;
+    cursor: pointer;
+    border-radius: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h6 {
+    margin-bottom: 20px !important;
+    color: black;
+}
+
+.card:hover {
+    box-shadow: none;
+    border: 4px solid #fdc716 !important;
+}

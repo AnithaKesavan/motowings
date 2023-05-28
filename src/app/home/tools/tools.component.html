@@ -3,8 +3,8 @@
 <!-- Home slider start-->
 <section class="p-0 height-85 tools_slider">
     <owl-carousel-o [options]="HomeSliderConfig" class="home-slider">
-        <ng-template carouselSlide>
-            <div class="home text-center" [ngStyle]="{'background-image': 'url(assets/images/slider/30.jpg)'}">
+        <ng-template carouselSlide> 
+            <div class="home text-center"  [ngStyle]="{'background-image': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/images/bike/GLO09497.jpg)'}">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -12,8 +12,8 @@
                                 <div>
                                     <h4>welcome to Autowings</h4>
                                     <h1>Performance</h1>
-                                    <a [routerLink]="['/shop/collection/left/sidebar']"
-                                        [queryParams]="{ category: 'tools'}" class="btn btn-solid">shop now</a>
+                                    <a [routerLink]="['/pages/product']"
+                                        class="btn btn-solid">shop now</a>
                                 </div>
                             </div>
                         </div>
@@ -22,7 +22,7 @@
             </div>
         </ng-template>
         <ng-template carouselSlide>
-            <div class="home text-center" [ngStyle]="{'background-image': 'url(assets/images/slider/33.jpeg)'}">
+            <div class="home text-center" [ngStyle]="{'background-image': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(assets/images/bike/2.jpg)'}">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -30,8 +30,8 @@
                                 <div>
                                     <h4>welcome to Autowings</h4>
                                     <h1>Performance</h1>
-                                    <a [routerLink]="['/shop/collection/left/sidebar']"
-                                        [queryParams]="{ category: 'tools'}" class="btn btn-solid">shop now</a>
+                                    <a [routerLink]="['/pages/product']"
+                                          class="btn btn-solid">shop now</a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col">
                 <div class="title3">
-                    <h2 class="title-inner3">welcome to autowings store</h2>
+                    <h2 class="title-inner3">welcome to motowings store</h2>
                     <div class="line"></div>
                 </div>
                 <!-- <owl-carousel-o [options]="ProductSliderConfig" class="product-5 product-m no-arrow">

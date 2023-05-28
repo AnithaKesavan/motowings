@@ -6,13 +6,12 @@ import { HomeRoutingModule } from './home-routing.module';
 import { ToolsComponent } from './tools/tools.component';
 
 // Widgest Components
+import { CategoryComponent } from './category/category.component';
 import { BlogComponent } from './widgets/blog/blog.component';
 import { CollectionComponent } from './widgets/collection/collection.component';
 import { LogoComponent } from './widgets/logo/logo.component';
 import { ServicesComponent } from './widgets/services/services.component';
-import { SliderComponent } from './widgets/slider/slider.component'; 
-import { ProductsComponent } from './products/products.component';
-import { CategoryComponent } from './category/category.component';
+import { SliderComponent } from './widgets/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +23,8 @@ import { CategoryComponent } from './category/category.component';
     ServicesComponent,
     SliderComponent,
     CollectionComponent,
-    CategoryComponent,
-    ProductsComponent
+    CategoryComponent, 
+    
   ],
   imports: [
     CommonModule,
