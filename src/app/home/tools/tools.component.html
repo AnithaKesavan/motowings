@@ -1,0 +1,166 @@
+<app-header-one [class]="'header-tools'"></app-header-one>
+
+<!-- Home slider start-->
+<section class="p-0 height-85 tools_slider">
+    <owl-carousel-o [options]="HomeSliderConfig" class="home-slider">
+        <ng-template carouselSlide>
+            <div class="home text-center" [ngStyle]="{'background-image': 'url(assets/images/slider/30.jpg)'}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slider-contain">
+                                <div>
+                                    <h4>welcome to Autowings</h4>
+                                    <h1>Performance</h1>
+                                    <a [routerLink]="['/shop/collection/left/sidebar']"
+                                        [queryParams]="{ category: 'tools'}" class="btn btn-solid">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template carouselSlide>
+            <div class="home text-center" [ngStyle]="{'background-image': 'url(assets/images/slider/33.jpeg)'}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slider-contain">
+                                <div>
+                                    <h4>welcome to Autowings</h4>
+                                    <h1>Performance</h1>
+                                    <a [routerLink]="['/shop/collection/left/sidebar']"
+                                        [queryParams]="{ category: 'tools'}" class="btn btn-solid">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </owl-carousel-o>
+</section>
+<!-- Home slider End -->
+
+<!-- service section start -->
+<section class="banner-padding absolute-banner pb-0 tools-service">
+    <div class="container absolute-bg">
+        <div class="service p-0 ">
+            <app-services></app-services>
+        </div>
+    </div>
+</section>
+<!-- service section end -->
+
+<!-- about section start-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="title3">
+                    <h2 class="title-inner3">About Us</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Moto Wings Performance is Leading Manufacturer and Exporter of Street Bikes Exhausts, Two Wheeler Performance Exhausts Silencer, Cruiser & Super Bike Exhausts Performance Silencer in Coimbatore, Tamilnadu, South India.
+                        We Manufacture and Export Performance Exhaust Silencers of All Brands Bikes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="search-button position-relative">
+                <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'shoes'}"
+                    class="btn btn-solid btn-find w-200">More
+                    <div class="arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section end-->
+
+<!-- product slider start -->
+<section class="section-b-space tools-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title3">
+                    <h2 class="title-inner3">welcome to autowings store</h2>
+                    <div class="line"></div>
+                </div>
+                <!-- <owl-carousel-o [options]="ProductSliderConfig" class="product-5 product-m no-arrow">
+                    <ng-container *ngFor="let product of products">
+                        <ng-template carouselSlide>
+                            <div class="product-box product-wrap">
+                                <app-product-box-three [product]="product" [currency]="productService?.Currency">
+                                </app-product-box-three>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o> -->
+                <app-category></app-category>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- product slider end -->
+
+<!-- parallax section start -->
+<section class="full-banner parallax-banner21 parallax small-slider tools-parallax-product"
+    [ngStyle]="{'background-image': 'url(assets/images/slider/33.jpeg)'}" style="padding: 0 !important;">
+    <div style="background-color: #22222280;">
+        <div class="sectn container">
+            <div class="row">
+                <div class="col-5 col-12">
+                    <div class="title3">
+                        <h2 class="title-inner3 text-white">Request A Call Back</h2>
+                        <div class="line"></div>
+                    </div>
+                    <h4 class="text-white">
+                        Any Questions About Us?
+                    </h4>
+                    <p class="mt-3 text-white">
+                        If you have any kind of query, please don't hesitate to contact us on our Email and you can also
+                        contact by calling 08048047580
+                    </p>
+                </div>
+                <div class="col-lg-7 col-12">
+                    <div class="tools-description">
+                        <div>
+                            <div class="tools-form">
+                                <div class="form-group">
+                                    <label>Enter your Email-Id or Contact Number</label>
+                                    <input type="text" class="form-control" id="email" required="">
+                                </div>
+                                <div class="form-group mt-lg-4 ">
+                                    <label>Type your requirement in detail...</label>
+                                    <textarea type="text" class="form-control textarea" id="email" required="">
+                                    </textarea>
+                                </div>
+
+                                <div class="search-button text-center mt-4">
+                                    <a class="btn btn-solid btn-find p-4">Send message</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- parallax section end -->
+
+
+<!-- Cart Open To Top Side-->
+<app-cart-variation [direction]="'top'"></app-cart-variation>
+<app-footer-one [class]="'sticky-footer'" [newsletter]="false" [themeLogo]="themeLogo"></app-footer-one>
