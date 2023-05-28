@@ -174,6 +174,7 @@ export class ProductService {
         localStorage.setItem("cartItems", JSON.stringify(state.cart));
         return true
       }
+      return false;
     })
   }
 

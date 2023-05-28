@@ -28,11 +28,7 @@ import { BlogNoSidebarComponent } from './blog/blog-no-sidebar/blog-no-sidebar.c
 import { BlogDetailsComponent } from './blog/blog-details/blog-details.component';
 import { GridTwoComponent } from './portfolio/grid-two/grid-two.component';
 import { GridThreeComponent } from './portfolio/grid-three/grid-three.component';
-import { GridFourComponent } from './portfolio/grid-four/grid-four.component';
-import { MasonryGridTwoComponent } from './portfolio/masonry-grid-two/masonry-grid-two.component';
-import { MasonryGridThreeComponent } from './portfolio/masonry-grid-three/masonry-grid-three.component';
-import { MasonryGridFourComponent } from './portfolio/masonry-grid-four/masonry-grid-four.component';
-import { MasonryFullWidthComponent } from './portfolio/masonry-full-width/masonry-full-width.component';
+import { GridFourComponent } from './portfolio/grid-four/grid-four.component'; 
 
 const routes: Routes = [
   { 
@@ -146,22 +142,6 @@ const routes: Routes = [
   { 
     path: 'portfolio/grid/four', 
     component: GridFourComponent 
-  },
-  { 
-    path: 'portfolio/masonry/grid/two', 
-    component: MasonryGridTwoComponent 
-  },
-  { 
-    path: 'portfolio/masonry/grid/three', 
-    component: MasonryGridThreeComponent 
-  },
-  { 
-    path: 'portfolio/masonry/grid/four', 
-    component: MasonryGridFourComponent 
-  },
-  { 
-    path: 'portfolio/masonry/full-width', 
-    component: MasonryFullWidthComponent 
   }
 ];
 

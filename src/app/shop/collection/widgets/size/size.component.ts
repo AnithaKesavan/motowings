@@ -50,6 +50,7 @@ export class SizeComponent implements OnInit {
     if(this.size.indexOf(item) != -1){
       return true;
     }
+    return false;
   }
 
 }

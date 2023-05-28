@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { Router } from 'express';
+import { Component } from '@angular/core'; 
 
 @Component({
   selector: 'app-category',
@@ -8,7 +7,7 @@ import { Router } from 'express';
 })
 export class CategoryComponent {
 
-  constructor(private router: Router) {
+  constructor() {
 
   }
 

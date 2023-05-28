@@ -1,6 +1,5 @@
 import { Component, OnInit, Output, Input, EventEmitter, Inject, PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
-import { Options } from 'ng5-slider';
+import { isPlatformBrowser } from '@angular/common'; 
 
 @Component({
   selector: 'app-price',
@@ -20,12 +19,7 @@ export class PriceComponent implements OnInit {
   public isBrowser: boolean = false;
 
   public price: any;
-
-  options: Options = {
-    floor: 0,
-    ceil: 1000
-  };
-  
+ 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) { 
     if (isPlatformBrowser(this.platformId)) {
       this.isBrowser = true; // for ssr

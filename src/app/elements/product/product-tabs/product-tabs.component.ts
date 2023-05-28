@@ -27,7 +27,7 @@ export class ProductTabsComponent implements OnInit {
 
   // Product Tab collection
   getCollectionProducts(collection) {
-    return this.products.filter((item) => {
+    return this.products.filter((item: any) => {
       if (item.collection.find(i => i === collection)) {
         return item
       }

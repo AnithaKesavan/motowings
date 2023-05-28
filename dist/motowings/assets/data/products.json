@@ -1,0 +1,441 @@
+[
+    {
+        "id": 1,
+        "title": "Royel Enfield",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "fashion",
+        "brand": "nike",
+        "collection": [
+            "new products"
+        ],
+        "category": "Women",
+        "price": 145,
+        "sale": true,
+        "discount": "40",
+        "stock": 5,
+        "new": true,
+        "tags": [
+            "new",
+            "s",
+            "m",
+            "yellow",
+            "white",
+            "pink",
+            "nike"
+        ], 
+        "images": [
+            {
+                "image_id": 111,
+                "id": 1,
+                "alt": "yellow",
+                "src": "assets/images/product/fashion/39.jpg",
+                "variant_id": [
+                    101,
+                    104
+                ]
+            },
+            {
+                "image_id": 112,
+                "id": 1,
+                "alt": "white",
+                "src": "assets/images/product/fashion/6.jpg",
+                "variant_id": [
+                    102,
+                    105
+                ]
+            },
+            {
+                "image_id": 113,
+                "id": 1,
+                "alt": "pink",
+                "src": "assets/images/product/fashion/25.jpg",
+                "variant_id": [
+                    103,
+                    106
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "belted dress",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "fashion",
+        "brand": "zara",
+        "collection": [
+            "best sellers"
+        ],
+        "category": "Women",
+        "price": 185,
+        "sale": false,
+        "discount": "40",
+        "stock": 2,
+        "new": false,
+        "tags": [
+            "s",
+            "m",
+            "l",
+            "olive",
+            "navy",
+            "red",
+            "zara"
+        ],
+        "variants": [
+            {
+                "variant_id": 201,
+                "id": 2,
+                "sku": "sku1",
+                "size": "s",
+                "color": "olive",
+                "image_id": 211
+            },
+            {
+                "variant_id": 202,
+                "id": 2,
+                "sku": "sku2",
+                "size": "s",
+                "color": "navy",
+                "image_id": 212
+            },
+            {
+                "variant_id": 203,
+                "id": 2,
+                "sku": "sku3",
+                "size": "s",
+                "color": "red",
+                "image_id": 213
+            },
+            {
+                "variant_id": 204,
+                "id": 2,
+                "sku": "sku4",
+                "size": "m",
+                "color": "olive",
+                "image_id": 211
+            },
+            {
+                "variant_id": 205,
+                "id": 2,
+                "sku": "sku4",
+                "size": "m",
+                "color": "navy",
+                "image_id": 212
+            },
+            {
+                "variant_id": 206,
+                "id": 2,
+                "sku": "sku4",
+                "size": "m",
+                "color": "red",
+                "image_id": 213
+            },
+            {
+                "variant_id": 207,
+                "id": 2,
+                "sku": "sku4",
+                "size": "l",
+                "color": "olive",
+                "image_id": 211
+            },
+            {
+                "variant_id": 208,
+                "id": 2,
+                "sku": "sku4",
+                "size": "l",
+                "color": "navy",
+                "image_id": 212
+            },
+            {
+                "variant_id": 209,
+                "id": 2,
+                "sku": "sku4",
+                "size": "l",
+                "color": "red",
+                "image_id": 213
+            }
+        ],
+        "images": [
+            {
+                "image_id": 211,
+                "id": 2,
+                "alt": "olive",
+                "src": "assets/images/product/fashion/3.jpg",
+                "variant_id": [
+                    201,
+                    204,
+                    207
+                ]
+            },
+            {
+                "image_id": 212,
+                "id": 2,
+                "alt": "navy",
+                "src": "assets/images/product/fashion/4.jpg",
+                "variant_id": [
+                    202,
+                    205,
+                    208
+                ]
+            },
+            {
+                "image_id": 213,
+                "id": 2,
+                "alt": "pink",
+                "src": "assets/images/product/fashion/5.jpg",
+                "variant_id": [
+                    203,
+                    206,
+                    209
+                ]
+            },
+            {
+                "image_id": 214,
+                "id": 2,
+                "alt": "pink",
+                "src": "assets/images/product/fashion/15.jpg",
+                "variant_id": [
+                    201,
+                    204
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "fitted dress",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "fashion",
+        "brand": "denim",
+        "collection": [
+            "featured products"
+        ],
+        "category": "Women",
+        "price": 174,
+        "sale": false,
+        "discount": "40",
+        "stock": 0,
+        "new": true,
+        "tags": [
+            "denim",
+            "l",
+            "m",
+            "white",
+            "black"
+        ],
+        "variants": [
+            {
+                "variant_id": 301,
+                "id": 3,
+                "sku": "sku3",
+                "size": "l",
+                "color": "white",
+                "image_id": 311
+            },
+            {
+                "variant_id": 302,
+                "id": 3,
+                "sku": "skul3",
+                "size": "m",
+                "color": "white",
+                "image_id": 311
+            },
+            {
+                "variant_id": 303,
+                "id": 3,
+                "sku": "sku3l",
+                "size": "l",
+                "color": "black",
+                "image_id": 312
+            },
+            {
+                "variant_id": 304,
+                "id": 3,
+                "sku": "sku4m",
+                "size": "m",
+                "color": "black",
+                "image_id": 312
+            }
+        ],
+        "images": [
+            {
+                "image_id": 311,
+                "id": 3,
+                "alt": "white",
+                "src": "assets/images/product/fashion/1.jpg",
+                "variant_id": [
+                    301,
+                    303
+                ]
+            },
+            {
+                "image_id": 312,
+                "id": 1,
+                "alt": "white",
+                "src": "assets/images/product/fashion/2.jpg",
+                "variant_id": [
+                    302,
+                    304
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "belted top",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "fashion",
+        "brand": "madame",
+        "collection": [
+            "new products",
+            "on sale"
+        ],
+        "category": "Women",
+        "price": 98,
+        "sale": false,
+        "discount": "50",
+        "stock": 10,
+        "new": true,
+        "tags": [
+            "s",
+            "l",
+            "white",
+            "skyblue",
+            "madame"
+        ],
+        "variants": [
+            {
+                "variant_id": 401,
+                "id": 4,
+                "sku": "sku4",
+                "size": "s",
+                "color": "white",
+                "image_id": 411
+            },
+            {
+                "variant_id": 402,
+                "id": 4,
+                "sku": "skul4",
+                "size": "l",
+                "color": "white",
+                "image_id": 411
+            },
+            {
+                "variant_id": 403,
+                "id": 4,
+                "sku": "sku4s",
+                "size": "s",
+                "color": "skyblue",
+                "image_id": 412
+            },
+            {
+                "variant_id": 404,
+                "id": 4,
+                "sku": "sku4l",
+                "size": "l",
+                "color": "skyblue",
+                "image_id": 412
+            }
+        ],
+        "images": [
+            {
+                "image_id": 411,
+                "id": 4,
+                "alt": "white",
+                "src": "assets/images/product/fashion/8.jpg",
+                "variant_id": [
+                    401,
+                    402
+                ]
+            },
+            {
+                "image_id": 412,
+                "id": 4,
+                "alt": "skyblue",
+                "src": "assets/images/product/fashion/7.jpg",
+                "variant_id": [
+                    403,
+                    404
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "waist dress",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "fashion",
+        "brand": "biba",
+        "collection": [
+            "featured products"
+        ],
+        "category": "Women",
+        "price": 230,
+        "sale": true,
+        "discount": "20",
+        "stock": 4,
+        "new": true,
+        "tags": [
+            "m",
+            "l",
+            "green",
+            "black",
+            "biba"
+        ],
+        "variants": [
+            {
+                "variant_id": 501,
+                "id": 5,
+                "sku": "sku5",
+                "size": "m",
+                "color": "green",
+                "image_id": 511
+            },
+            {
+                "variant_id": 502,
+                "id": 5,
+                "sku": "skul5",
+                "size": "l",
+                "color": "green",
+                "image_id": 511
+            },
+            {
+                "variant_id": 503,
+                "id": 5,
+                "sku": "sku5s",
+                "size": "m",
+                "color": "black",
+                "image_id": 512
+            },
+            {
+                "variant_id": 504,
+                "id": 5,
+                "sku": "sku5l",
+                "size": "l",
+                "color": "black",
+                "image_id": 512
+            }
+        ],
+        "images": [
+            {
+                "image_id": 511,
+                "id": 5,
+                "alt": "green",
+                "src": "assets/images/product/fashion/9.jpg",
+                "variant_id": [
+                    501,
+                    503
+                ]
+            },
+            {
+                "image_id": 512,
+                "id": 5,
+                "alt": "black",
+                "src": "assets/images/product/fashion/10.jpg",
+                "variant_id": [
+                    502,
+                    504
+                ]
+            }
+        ]
+    }
+]

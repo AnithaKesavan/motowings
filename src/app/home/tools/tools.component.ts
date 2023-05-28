@@ -91,7 +91,7 @@ export class ToolsComponent implements OnInit, OnDestroy {
 
   // Product Tab collection
   getCollectionProducts(collection) {
-    return this.products.filter((item) => {
+    return this.products.filter((item: any) => {
       if (item.collection.find(i => i === collection)) {
         return item
       }

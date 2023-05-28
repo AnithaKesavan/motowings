@@ -50,6 +50,7 @@ export class ColorsComponent implements OnInit {
     if(this.colors.indexOf(item) != -1){
       return true;
     }
+    return false;
   }
 
 }

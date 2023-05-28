@@ -48,6 +48,7 @@ export class BrandsComponent implements OnInit {
     if(this.brands.indexOf(item) != -1){
       return true;
     }
+    return false;
   }
 
 }

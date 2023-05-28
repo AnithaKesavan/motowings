@@ -37,12 +37,7 @@ import { BlogDetailsComponent } from './blog/blog-details/blog-details.component
 // Portfolio Components
 import { GridTwoComponent } from './portfolio/grid-two/grid-two.component';
 import { GridThreeComponent } from './portfolio/grid-three/grid-three.component';
-import { GridFourComponent } from './portfolio/grid-four/grid-four.component';
-import { MasonryGridTwoComponent } from './portfolio/masonry-grid-two/masonry-grid-two.component';
-import { MasonryGridThreeComponent } from './portfolio/masonry-grid-three/masonry-grid-three.component';
-import { MasonryGridFourComponent } from './portfolio/masonry-grid-four/masonry-grid-four.component';
-import { MasonryFullWidthComponent } from './portfolio/masonry-full-width/masonry-full-width.component';
-
+import { GridFourComponent } from './portfolio/grid-four/grid-four.component'; 
 @NgModule({
   declarations: [
     WishlistComponent,
@@ -72,11 +67,7 @@ import { MasonryFullWidthComponent } from './portfolio/masonry-full-width/masonr
     BlogDetailsComponent,
     GridTwoComponent,
     GridThreeComponent,
-    GridFourComponent,
-    MasonryGridTwoComponent,
-    MasonryGridThreeComponent,
-    MasonryGridFourComponent,
-    MasonryFullWidthComponent
+    GridFourComponent
   ],
   imports: [
     CommonModule,
