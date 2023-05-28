@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-// import { NgxPayPalModule } from 'ngx-paypal';
-import { Ng5SliderModule } from 'ng5-slider';
+import { CommonModule } from '@angular/common'; 
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { SharedModule } from '../shared/shared.module';
 import { ShopRoutingModule } from './shop-routing.module';
@@ -76,9 +74,7 @@ import {RouterModule} from '@angular/router';
     SuccessComponent
   ],
   imports: [
-    CommonModule,
-    // NgxPayPalModule,
-    Ng5SliderModule,
+    CommonModule, 
     InfiniteScrollModule,
     SharedModule,
     ShopRoutingModule,
